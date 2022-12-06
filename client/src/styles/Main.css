@@ -1,0 +1,6 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(226, 220, 205);
+min-height: 1000px;
+}

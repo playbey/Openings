@@ -1,0 +1,22 @@
+.board{
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: solid black;
+  /* padding-top: 50px;
+  padding-left: 800px; */
+}
+
+.white{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.black{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(88, 155, 114);
+}
